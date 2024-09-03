@@ -9,4 +9,19 @@ function openHamburger(){
 
 const menu = document.querySelector('.hamburger-menu-icon')
 
-menu.addEventListener('click',openHamburger)
+menu.addEventListener('click',openHamburger);
+
+
+let button = document.querySelector("#submit-form");
+
+button.addEventListener('click',handleSubmit);
+
+function handleSubmit (e){
+    e.preventDefault()
+    var link = "mailto:pavanc72@gmail.com"
+    + "?cc=pavanpotdar95@gmail.com"
+    + "&subject=" + encodeURIComponent("This is my subject")
+    + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+;
+window.location.href = link;
+}

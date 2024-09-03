@@ -23,13 +23,17 @@
    body {
         margin: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #86895a;
+    background-color: #ffffff;
+}
+header{
+    box-shadow: 0 0 5px;
+
 }
 .desktop-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 .logo{
     font-size: 2rem;
@@ -66,7 +70,7 @@
 position: absolute;
 right: 0;
 top:0;
-background-color: #86895a;
+background-color: #ffffff;
 transition: all 0.3 ease-in-out;
 }
 .hamburger-menu-icon{
@@ -139,8 +143,7 @@ height: 80vh;
 } */
 .profile-image img{
     /* padding-top: 51px; */
-    width: 400px;
-    height: 400px;
+    width: 300px;
     margin: auto,0;
     margin-top: 51px;
     border-radius: 50%;
@@ -167,23 +170,39 @@ height: 80vh;
 }
 .btn a{
     text-decoration: none;
-    color :white
+    /* color: rgb(53, 53, 53); */
 }
 .btn-color-1{
     background: rgb(53, 53, 53);
     border: rgb(53, 53, 53) 0.1rem solid;
     color: white;
 }
-.btn-color-1:hover{
-    background: rgb(10, 8, 8);
+.btn-color-1 a{
+    color: white;
 }
-.btn-color-2:hover{
-    background: rgb(53, 53, 53);
+.btn-color-1:hover{
+    background: rgb(150, 148, 148);
+}
+.btn-color-1:hover a{
+    color: rgb(1, 1, 1);
+}
+.btn-color-2:hover  {
+    background:  rgb(53, 53, 53);
     color: white; 
 }
+.btn-color-2:hover a{
+    /* background: rgb(53, 53, 53); */
+    color: white; 
+}
+
 .btn-color-2{
     background: none;
     border: rgb(53, 53, 53) 0.1rem solid;
+    color: rgb(53, 53, 53);
+}
+.btn-color-2 a{
+    
+    color: rgb(53, 53, 53);
 }
 .profile-text{
     margin: 0;
@@ -192,14 +211,14 @@ height: 80vh;
 }
 .profile-name{
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 .profile-position{
     margin: 0;
     font-weight: 600;
     color: rgb(85, 85, 85);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .menu-logo{
@@ -208,6 +227,83 @@ height: 80vh;
     border: 1px solid black;
     border-radius: 5px;
 }
+
+/* Contact section */
+
+.contact{
+    background-color: #ffffff;
+}
+
+.contact-container{
+    margin: auto;
+    width: 60%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.contact-caption{
+    text-align: center;
+}
+
+.contact-caption h1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact-caption p{
+    color: rgb(251, 248, 248);
+}
+
+
+.contact-form form{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 10px 20px;
+border-radius: 10px;
+margin: 10px 20px;
+background-color: white;
+box-shadow: 0 0 10px;
+}
+.contact-label{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact-input{
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    background-color: #dee4dc;
+    padding-left: 10px ;
+}
+
+.text-area{
+    height: 10rem;
+    resize: none;
+}
+
+.divide{
+    width: 80%;
+    margin: 20px auto;
+}
+.sub-btn{
+    text-align: end;
+    padding: 20px;
+}
+
+.sub-btn button{
+    border:none;
+    border-radius: 5px;
+    width: 5rem;
+    background-color: rgb(44, 62, 161);
+    padding: 10px;
+    color:white;
+    font-size: 1rem;
+}
+
 
 
 
