@@ -25,11 +25,15 @@
     font-family: "Poppins", sans-serif;
     background-color: #ffffff;
 }
+header{
+    box-shadow: 0 0 5px;
+
+}
 .desktop-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 .logo{
     font-size: 2rem;
