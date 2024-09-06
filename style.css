@@ -416,7 +416,8 @@ header {
 
   .desktop-nav {
     justify-content: flex-start;
-    height: 11vh;
+    height: 5vh;
+    margin-bottom: 20px;
     padding: 0.5rem;
   }
   .about-container {
